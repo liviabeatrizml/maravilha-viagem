@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* background: #D1D5DA; */
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #082241;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("https://vemvoar.voeazul.com.br/wp-content/uploads/2020/05/7-maravilhas-do-mundo-1536x1024.jpg");
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav p {
+    color: white;
+    font-weight: bold;
+}
+header nav ul{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-shadow: #082241 0.1em 0.1em 0.2em;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li:hover{
+    color: #082241;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    mix-blend-mode: overlay;
+}
+
+.header-content p {
+    color: #082241;
+    font-weight: 900;  
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.pacotes {
+    background: #D1D5DA;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 25px 0px;
+    margin: 25px 20px;
+    position: relative;
+}
+
+.pacotes .pacotes-title {
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 55%;
+    border-radius: 25px 0px 0px 0px;
+    padding: 5px;
+}
+
+.pacotes .card-content ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 5px 15px 7px 15px;
+    margin: 0;
+}
+.pacotes .card-content ul li{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin: 3.5px 0;
+    color: rgb(114, 110, 110);
+}
+
+.pacotes .card-content li svg{
+    height: 19px;
+    width: 19px;
+    margin-right: 8px;
+}
+
+.pacotes .card-content h1 {
+    margin: 0 0 0 8px;
+}
+
+.pacotes .card .card-tag-top{
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0;
+    background: rgb(250, 133, 0);
+    top: 15px;
+    border-radius: 4px 0 0 4px;
+}
+
+.pacotes .card .card-tag-bottom {
+    font-size: 0.9rem;
+    position: absolute;
+    left: 0;
+    background: rgb(5, 39, 230);
+    top: 45%;
+    border-radius: 0px 4px 4px  0px;
+}
+.pacotes .card .card-tag p{
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title{
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+
+.servicos .servicos-cards{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+
+.servicos .card .card-content{
+    height: 65%;
+    text-align: center;
+}
+
+.servicos .card svg {
+    height: 60px;
+    width: 60px;
+    color: #6D6D6E;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover{
+    stroke: #082241;
+    transform: scale(1.1);
+}
+
+.servicos .card h3{
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    color: #082241;
+}
+
+.servicos .card p {
+    color: rgb(68, 66, 66);
+    padding: 2px;
+    text-align: center;
+}
+
+.servicos button{
+    padding: 8px 12px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.contato {
+    padding: 60px 5%;
+    position: relative;
+    background: #D1D5DA;
+}
+
+.contato .contato-card{
+    width: 300px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+
+    top: calc(50% - 150px);
+    left: calc(26% - 175px);
+
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 6px 0 rgba(42, 43, 44, 0.315);
+}
+
+.contato .contato-card ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.contato .contato-card li{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #6D6D6E;
+
+    display: flex;
+    align-items: center;
+}
+
+.contato .contato-card ul svg{
+    height: 20px;
+    margin: 10px;
+}
+
+.contato .contato-card h1{
+    text-align: left;
+    padding-left: 35px;
+    margin: 0;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 950px) {
+    .contato{
+        padding: 60px 0;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .contato {
+        padding: 60px 0;
+    }
+
+    .contato .contato-card{
+        position: static;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 508px) {
+    body {
+        height: 55px;
+    }
+
+    header nav ul{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        z-index: 99;
+        background: #082241;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul li:hover{
+        color: gray;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+
+    .header-content p {
+        color: white;
+        text-shadow: #082241 0.1em 0.1em 0.2em;
+        font-weight: bold;   
+    }
+    
+    .servicos .servicos-cards{
+        padding-bottom: 20px;
+        /* justify-content: center; */
+    }
+
+}
