@@ -28,6 +28,12 @@ Projeto finalizado e com responsividade Mobile e Desktop. Segue abaixo as etapas
    - Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - criação de servidor HTTP para carregamento ao vivo do código.
 
 ## Telas Desktop e Mobile
+>Tela Desktop
+
+![enter image description here](https://github.com/liviabeatrizml/maravilha-viagem/blob/main/componentes/GIF_TelaDesktop.gif?raw=true)
+>Tela Mobile
+
+![enter image description here](https://github.com/liviabeatrizml/maravilha-viagem/blob/main/componentes/GIF_TelaMobile.gif?raw=true)
 
 ---
 Feito por [Livia Beatriz](https://github.com/liviabeatrizml) 
