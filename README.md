@@ -1,7 +1,7 @@
 # Site de Agência de Viagem - Maravilha Viagens
 > Maravilha Viagens é um site de Agência de Viagens desenvolvido em HTML e CSS, com intuito de aprimorar meus conhecimentos na área. O projeto foi realizado por meio das instruções das vídeo aulas de Isadora Stangarlin do canal Papo de Dev via [Youtube](https://youtube.com/playlist?list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs). 
 
-:airplane: Uma das minhas metas é conhecer as sete maravilhas(ou pelo menos algumas delas), então, juntei o útil ao agradável e transformei como tema central do meu site. Veja você mesmo! [Maravilha Viagens](https://liviabeatrizml.github.io/maravilha-viagem/)
+:airplane: Uma das minhas metas é conhecer as sete maravilhas(ou pelo menos algumas delas), então, juntei o útil ao agradável e transformei como tema central do meu site. Veja você mesmo! [Maravilha Viagens](https://liviabeatrizml.github.io/maravilha-viagem/) ou visualize as telas disponibilizadas aqui mesmo! [Telas](#telas-desktop-e-mobile)
 
 ## :clipboard: Requisitos
 Requer um editor de código-fonte instalado em sua máquina. Sugestão [Visual Studio Code](https://code.visualstudio.com/).
@@ -26,6 +26,7 @@ Projeto finalizado e com responsividade Mobile e Desktop. Segue abaixo as etapas
 
  - [Visual Studio Code](https://code.visualstudio.com/) - editor de código utilizado para a criação do projeto.
    - Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - criação de servidor HTTP para carregamento ao vivo do código.
+ - [Github Pages](https://pages.github.com/) - plataforma em nuvem utilizada para hospedar e deixar o site no ar.
 
 ## Telas Desktop e Mobile
 >Tela Desktop
